@@ -17,14 +17,17 @@ different types of data type..
 $name = 'Bangladesh';
 var_dump ($name);
 echo "\n";
+
 // integer data type
 $age = 12;
 var_dump ($age);
 echo "\n";
+
 // boolean data type
 $result = true;
 var_dump ($result);
 echo "\n";
+
 // float data type
 $number = 3.1416;
 var_dump ($number);
