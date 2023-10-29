@@ -1,12 +1,15 @@
 <?php
 /*
+Arithmatic operator
+
 + = plus
 - = minus
 * = multiplication
 / = division
 % = modules
-/ = forward slash
-\ = backward slash
+
+assainment operator
++=, -=, *=, /=
 
 */
 $number1 = 50;
@@ -33,4 +36,8 @@ $number /=6; // shorthand divide
 
 $number %=7; //shorthand vagshes
 
-echo $number;
+echo $number ."\n";
+
+$fNumber = 15;
+$fNumber++; // number + 1, number+=1
+echo $fNumber;
