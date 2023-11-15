@@ -7,5 +7,6 @@ function sum(int ...$numbers):int{
     }
     return $result;
 }
-
-echo sum(10,20,30,40);
+$a = sum(10,20,30,40);
+echo $a;
+var_dump($a);

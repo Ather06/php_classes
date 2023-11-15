@@ -4,12 +4,16 @@ $veryOld = 0;
 $old = 1;
 $new = 1;
 
-for($i = 0; $i <20 ; $i++){
+for($i = 0; $i < 20 ; $i++){
     echo $veryOld." ";
     $old = $new;
     $new = $veryOld + $old;
     $veryOld = $old;
+     
 }
+echo $veryOld." ";
+
+
 
 /* explain
 initial value
