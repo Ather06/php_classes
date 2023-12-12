@@ -18,7 +18,7 @@
         </section>
         <section class="mainContent">
             <?php
-            include "/xampp/htdocs/php_classes/Day_10_OOP/object_serialiazation.php";
+            include "/xampp/htdocs/php_classes/Day_11_File/file_read.php";
             ?>
         </section>
         <section class="footerOption">
